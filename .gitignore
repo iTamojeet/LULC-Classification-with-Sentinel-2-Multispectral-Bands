@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code / editors
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Model weights / checkpoints
+04_training/checkpoints/
+04_training/*.pt
+04_training/*.pth
+04_training/*.h5
+04_training/*.ckpt
+*.onnx
+
+01_data_acquisition/data/*.tif
+04_training/checkpoints/*.pt
+
+# Data files (satellite imagery, LULC datasets — usually too large for git)
+data/
+01_data_acquisition/*.tif
+01_data_acquisition/*.tiff
+01_data_acquisition/*.jp2
+01_data_acquisition/*.safe/
+02_preprocessing/*.tif
+02_preprocessing/*.tiff
+02_preprocessing/*.npy
+02_preprocessing/patches/
+*.hdf
+*.h5
+*.nc
