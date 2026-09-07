@@ -152,3 +152,6 @@ schemes (ESA WorldCover taxonomy), a controlled comparative experiment
 design (RGB vs. multispectral) with a documented negative result
 (class-weighting), and engineering judgment through several real debugging
 cycles — not just a tutorial walkthrough.
+
+---
+© 2026 Tamojeet - Licensed under the MIT License.
